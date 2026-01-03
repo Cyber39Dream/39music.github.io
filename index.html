@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>39Music - Haters</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #121212;
+      color: #ffffff;
+      text-align: center;
+      padding: 50px 20px;
+    }
+    h1 {
+      color: #ff3d00;
+      margin-bottom: 10px;
+    }
+    h2 {
+      margin-bottom: 40px;
+    }
+    .song {
+      max-width: 500px;
+      margin: 0 auto 50px auto;
+      padding: 20px;
+      background-color: #1f1f1f;
+      border: 1px solid #ff3d00;
+      border-radius: 12px;
+    }
+    .song img {
+      width: 100%;
+      border-radius: 8px;
+      margin-bottom: 15px;
+    }
+    audio {
+      width: 100%;
+      margin-bottom: 15px;
+    }
+    .download-btn {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #ff3d00;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: bold;
+      transition: background-color 0.2s;
+    }
+    .download-btn:hover {
+      background-color: #ff5733;
+    }
+    @media (max-width: 600px) {
+      body {
+        padding: 20px 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <h1>39Music</h1>
+  <h2>My Songs</h2>
+
+  <div class="song">
+    <h3>Haters</h3>
+    <img src="music/Haters-cover.png" alt="Haters Cover Art">
+    <audio controls>
+      <source src="music/Haters.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+    <br>
+    <a class="download-btn" href="music/Haters.mp3" download>Download Haters</a>
+  </div>
+
+</body>
+</html>
