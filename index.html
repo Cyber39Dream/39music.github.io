@@ -20,7 +20,7 @@
       margin-bottom: 40px;
     }
     .song {
-      max-width: 500px;
+      max-width: 600px;
       margin: 0 auto 50px auto;
       padding: 20px;
       background-color: #1f1f1f;
@@ -32,9 +32,11 @@
       border-radius: 8px;
       margin-bottom: 15px;
     }
-    audio {
+    iframe {
       width: 100%;
+      border: none;
       margin-bottom: 15px;
+      height: 252px;
     }
     .download-btn {
       display: inline-block;
@@ -63,13 +65,14 @@
 
   <div class="song">
     <h3>Haters</h3>
-    <img src="music/Haters-cover.png" alt="Haters Cover Art">
-    <audio controls>
-      <source src="music/Haters.mp3" type="audio/mpeg">
-      Your browser does not support the audio element.
-    </audio>
-    <br>
-    <a class="download-btn" href="music/Haters.mp3" download>Download Haters</a>
+    <!-- Cover art -->
+    <img src="https://i.imgur.com/ffreRxf.jpeg" alt="Haters Cover Art">
+    
+    <!-- Audiomack embed -->
+    <iframe src="https://audiomack.com//embed/39ontop/song/haters-are-dead" scrolling="no" title="Haters"></iframe>
+    
+    <!-- Optional download button -->
+    <a class="download-btn" href="https://audiomack.com/39ontop/song/haters-are-dead" target="_blank">Download Haters</a>
   </div>
 
 </body>
